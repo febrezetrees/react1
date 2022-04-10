@@ -44,6 +44,7 @@ class className extends Component {
         //else push the id to the temparr
             temparr.push(e.target.id)
         }
+//RP UP TO HERE
         //setState function helps in changing the state. It can't be done manually
         this.setState({ compare: { arr: temparr } });
     } 
