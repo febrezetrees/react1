@@ -44,9 +44,13 @@ class className extends Component {
         //else push the id to the temparr
             temparr.push(e.target.id)
         }
-//RP UP TO HERE
-        //setState function helps in changing the state. It can't be done manually
-        this.setState({ compare: { arr: temparr } });
+//RP UP TO HERE = colon allows to drill down beyond a shallow merge})
+        //setState function requests an updat to state (which may be batched). It can't be done manually
+        this.setState({
+            compare: { 
+                arr: temparr 
+            } 
+        });
     } 
 
 // METHOD2: This function renders a component
